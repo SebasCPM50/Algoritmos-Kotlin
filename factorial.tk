@@ -1,0 +1,14 @@
+fun factorialIterativo(n: Int): Int {
+    var resultado = 1
+    for (i in 1..n) {
+        resultado *= i
+    }
+    return resultado
+}
+
+fun main() {
+    val n = 5  //(ejemplo)
+
+    val factorial = factorialIterativo(n)
+    println("El factorial de $n es: $factorial")
+}
